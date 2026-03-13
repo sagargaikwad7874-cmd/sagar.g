@@ -1,59 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Portfolio</title>
-
+<title>Student Information</title>
 <style>
-* {margin:0; padding:0; box-sizing:border-box;}
-body {font-family: 'Arial', sans-serif; background:#f9f9f9; color:#333;}
-header {background:#222; color:#fff; padding:20px 0; text-align:center;}
-nav a {color:white; margin:0 15px; text-decoration:none; font-weight:bold;}
-section {padding:60px 20px; text-align:center;}
-footer {background:#222; color:#fff; padding:15px 0; text-align:center;}
-button {background:#007BFF; color:white; padding:10px 20px; border:none; border-radius:5px; cursor:pointer;}
-button:hover {background:#0056b3;}
-.container {max-width:1000px; margin:0 auto;}
+body {
+    font-family: Arial;
+    background: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 80%;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
 </style>
 </head>
-
 <body>
 
-<header>
-<h1>My Portfolio</h1>
-<nav>
-<a href="#about">About</a>
-<a href="#projects">Projects</a>
-<a href="#contact">Contact</a>
-</nav>
-</header>
+<h1>Student Information</h1>
 
-<section id="about">
-<div class="container">
-<h2>About Me</h2>
-<p>Hi! I'm a developer/designer building cool websites and apps.</p>
-</div>
-</section>
+<table>
+<tr>
+<th>Roll No</th>
+<th>Name</th>
+<th>Class</th>
+<th>Department</th>
+<th>Contact</th>
+</tr>
 
-<section id="projects" style="background:#eee;">
-<div class="container">
-<h2>My Projects</h2>
-<p>Project 1 | Project 2 | Project 3</p>
-</div>
-</section>
+<tr>
+<td>01</td>
+<td>Dattatray Hajare</td>
+<td>1st Year</td>
+<td>Computer</td>
+<td>9876543210</td>
+</tr>
 
-<section id="contact">
-<div class="container">
-<h2>Contact Me</h2>
-<p>Email: yourname@example.com</p>
-<button onclick="window.location.href='mailto:yourname@example.com'">Send Email</button>
-</div>
-</section>
+<tr>
+<td>02</td>
+<td>Suyash Shinagare</td>
+<td>1st Year</td>
+<td>Computer</td>
+<td>9876543211</td>
+</tr>
 
-<footer>
-<p>© 2026 My Portfolio</p>
-</footer>
+<tr>
+<td>03</td>
+<td>Kartikraj Pandhare</td>
+<td>1st Year</td>
+<td>Computer</td>
+<td>9876543212</td>
+</tr>
+
+</table>
 
 </body>
 </html>
